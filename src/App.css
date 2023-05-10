@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* .bigDiv{
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	background-color:#6495ED;
+	border-radius: 10px;
+}
+
+
+.emailDiv{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.passwordDiv{
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+#password{
+	width: 250px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+#email{
+	width: 250px;
+	height: 30px;
+}
+
+#submit{
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+	background-color: white;
+	color: #0437F2;
+	border: 2px solid white;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.text{
+	color: white;
+} */
