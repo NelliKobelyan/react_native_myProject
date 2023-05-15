@@ -180,23 +180,33 @@ import { setSelectionRange } from '@testing-library/user-event/dist/utils';
 //   );
 // }
 
+// function App(){
+//   const [users, setUsers] = useState([]);
+
+//   useEffect(()=>{
+//       fetch('https://api.github.com/users').then(response => response.json()).then(data=>{
+//         setUsers(data);
+//       })
+//   }, [])
+
+//   return(
+//     <>
+//       {
+//         users.map(item=><div key={item.id}>
+//           <p>{item.id}</p>
+//           <img src={item.avatar_url} width={100}/>
+//         </div>)
+//       }
+//     </>
+//   )
+// }
+
 function App(){
-  const [users, setUsers] = useState([]);
-
-  useEffect(()=>{
-      fetch('https://api.github.com/users').then(response => response.json()).then(data=>{
-        setUsers(data);
-      })
-  }, [])
-
   return(
     <>
-      {
-        users.map(item=><div key={item.id}>
-          <p>{item.id}</p>
-          <img src={item.avatar_url} width={100}/>
-        </div>)
-      }
+    <div>
+      <h1>test</h1>
+    </div>
     </>
   )
 }
